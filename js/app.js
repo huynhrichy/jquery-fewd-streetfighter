@@ -6,5 +6,5 @@ $(document).ready(function() {
 	.mouseleave(function() {
 		$('.ryu-ready').hide();
 		$('.ryu-still').show();
-	);
-})
+	});
+});
