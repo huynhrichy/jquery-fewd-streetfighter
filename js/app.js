@@ -19,6 +19,7 @@ $(document).ready(function() {
 			playHadouken();
 			$('.ryu-ready').hide();
 			$('.ryu-still').hide();
+			$('.ryu-cool').hide();
 			$('.ryu-throwing').show();
 			$('.hadouken').finish().show()
 				.animate(
@@ -33,6 +34,7 @@ $(document).ready(function() {
 		.mouseup(function() {
 			$('.ryu-throwing').hide();
 			$('.ryu-ready').show();
+			$('.ryu-cool').hide();
 		});
 	}
 
